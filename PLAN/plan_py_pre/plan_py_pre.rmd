@@ -1,0 +1,77 @@
+---
+title: "学习计划"
+author: "陈瑶"
+date: "2020年3月"
+institute: 中南财经政法大学统计与数学学院
+csl: ./style/chinese-gb7714-2015-numeric.csl
+css: ./style/markdown.css
+bibliography: [./Bibfile.bib]
+eqnPrefixTemplate: ($$i$$)
+link-citations: true
+linkReferences: true
+chapters: true
+tableEqns: false
+autoEqnLabels: false
+classoption: "aspectratio=1610"
+---
+
+```{r setup, echo=F, purl=F}
+knitr::opts_knit$set(root.dir = getwd())
+knitr::opts_chunk$set(echo = TRUE, results = 'hide')
+knitr::opts_chunk$set(warning = FALSE, message=FALSE)
+knitr::opts_chunk$set(fig.align="center"
+                      ## ,out.width="0.9\\textwidth" # latex
+                      ,out.width="80%" # for both latex and html
+                      ,fig.width=5, fig.height=3
+                      )
+```
+
+```{r prepare, echo=F, purl=F}
+rm(list=ls())
+options(digits=4)
+options(scipen=100)
+graphics.off()
+Sys.setlocale("LC_ALL", "Chinese")
+library(reticulate)
+```
+
+**week6**
+
+- [ ] 整理pandas作业，并完成剩下的内容。
+
+- [ ] 完成第三次作业，命名为zuoye3，放入week4pandas中。
+
+- [ ] 看04.pdf第二节 05.pdf及对应课本和视频 并敲代码命名为practice放入week5matplotlib中。
+
+- [x] 注册 kaggle，力扣https://leetcode-cn.com/
+
+- [ ] 周五晚前完成
+
+**TODO**
+
+**2020.7.27周一**
+
+#### 学习
+
+##### python
+
+- [ ] 视频4、5，并做完笔记
+- [ ] pandas practice 完成7、8
+- [ ] 看04.pdf，并敲好代码
+- [ ] 写一道力扣题目
+
+##### 英语
+
+- [ ] 看红宝书lesson1
+- [ ] 雅思看第一章 
+
+##### 生活
+
+- [ ] 锻炼一小时！
+- [ ] 晚上10点半准时睡觉
+- [ ] 写日记 
+- [ ] 吹笛子
+- [ ] 弹琴
+- [ ] 整理笔记
+
+
